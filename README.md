@@ -49,9 +49,25 @@ input = {
     'marital': 'single',
     'education' : 'secondary'
 }
+```python
+input_score = predict_score(raw_data = input_table,
+                            cutoff_score = 200)
+```
 ```
 **Output**
 ```python
 Credit Score :  169
 Recommendation : REJECT
 ```
+
+## Recommendation for business
+- If we use machine learning, we can consider 4 data (`job`, `marital`, `education`, `default`), because testing statistics and coefficients have high values.
+
+- If we did not use machine learning, we can consider 4 data, (`job`, `marital`, `education`, `default`)
+  - `Job` not recommended for entrepreneur
+  - `marital` not recommended for divorced
+  - `education` not recommended for secondary
+  - `default` not recommended for yes
+    
+*for detail you can enter into `code_analysis`
+
