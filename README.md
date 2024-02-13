@@ -31,7 +31,7 @@ I'm using model logistic regression to decide using the data. Why use the model?
 
 
 ## **Observation Best Threshold Credit Scoring**
-How can we choose thresholds?
+How can we choose a cut-off score?
 - Estimate the expected approval rate from the test set.
 - Estimate the expected bad rate from the train set.
 
