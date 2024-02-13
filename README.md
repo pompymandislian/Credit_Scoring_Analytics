@@ -1,11 +1,11 @@
-# Background project
+# **Background project**
 ---
 
 n the company's banking division, there has been a default rate of 20% for credit. The company is interested in reducing this default rate using customer data. 
 As data scientists, we have been tasked with creating analytics and machine learning models to help decrease the default rate, 
 including identifying high-risk customers. We must proceed with caution when handling observational data.
 
-## Step-by-step
+## **Step-by-step**
 for obtain best predict in the high risk cases, what we must do? :
 1. Data Preprocessing
 2. Data Exploration
@@ -18,7 +18,7 @@ for obtain best predict in the high risk cases, what we must do? :
 9. Scaling
 10. Predict Credit Score
 
-## Result Model Prediction
+## **Result Model Prediction**
 I'm using model logistic regression to decide using the data. Why use the model? Because the model can be simple to interpret.
 
 - From model selection, we have the best logistic regression model that includes 4 predictors (`job`, `marital`, `education`, `default`).
@@ -30,7 +30,7 @@ I'm using model logistic regression to decide using the data. Why use the model?
   - In business terms, scorecards should be developed to mimic the thought process of a seasoned, effective adjudicator or risk analyst. A good adjudicator will never look at just two or three things from an application form or account history to decide.
 
 
-## Observation Best Threshold Credit Scoring
+## **Observation Best Threshold Credit Scoring**
 How can we choose thresholds?
 - Estimate the expected approval rate from the test set.
 - Estimate the expected bad rate from the train set.
@@ -39,4 +39,19 @@ Look at this image!
 
 <img align="center" src="image/setting_cutoff.png" width="650" height="500" />
 
-Now we can obtain a threshold for rejecting under 200 and then approving more than 200. How can we choose thresholds?
+Now we can obtain a threshold for rejecting under 200 and then approving more than 200.
+
+**Testing for input:**
+```python
+input = {
+    'default': 'yes',
+    'job': 'entrepreneur',
+    'marital': 'single',
+    'education' : 'secondary'
+}
+```
+**Output**
+```python
+Credit Score :  169
+Recommendation : REJECT
+```
