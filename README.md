@@ -63,7 +63,7 @@ Recommendation : REJECT
 ```
 
 ## Recommendation for business
-- If we use machine learning, we can consider 4 data (`job`, `marital`, `education`, `default`), because testing statistics and coefficients have high values.
+- If we use automated machine learning, we can consider 4 data (`job`, `marital`, `education`, `default`), because testing statistics and coefficients have high values.
 
 - If we did not use machine learning, we can consider 4 data, (`job`, `marital`, `education`, `default`)
   - `Job` not recommended for entrepreneur
