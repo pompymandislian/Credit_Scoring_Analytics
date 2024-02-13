@@ -39,7 +39,7 @@ Look at this image!
 
 <img align="center" src="image/setting_cutoff.png" width="650" height="500" />
 
-Now we can obtain a threshold for rejecting under 200 and then approving more than 200.
+Now we can obtain a cut-off for rejecting under 200 and then approving more than 200.
 
 **Testing for input:**
 ```python
