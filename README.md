@@ -36,6 +36,6 @@ How can we choose thresholds?
 - Estimate the expected bad rate from the train set.
 
 Look at this image!
-[gambar]
+<img align="center" src="image/setting_cutoff.png" width="700" height="300" />
 
 Now we can obtain a threshold for rejecting under 200 and then approving more than 200. How can we choose thresholds?
