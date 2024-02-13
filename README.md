@@ -49,6 +49,8 @@ input = {
     'marital': 'single',
     'education' : 'secondary'
 }
+```
+
 ```python
 input_score = predict_score(raw_data = input_table,
                             cutoff_score = 200)
