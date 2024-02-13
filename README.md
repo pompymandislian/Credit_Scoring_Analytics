@@ -53,7 +53,7 @@ input = {
 input_score = predict_score(raw_data = input_table,
                             cutoff_score = 200)
 ```
-```
+
 **Output**
 ```python
 Credit Score :  169
