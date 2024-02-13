@@ -5,6 +5,10 @@ In the company's banking division, there has been a default rate of 20% for cred
 As data scientists, we have been tasked with creating analytics and machine learning models to help decrease the default rate, 
 including identifying high-risk customers. We must proceed with caution when handling observational data.
 
+# **Objective**
+- Reduce default rates in the banking division
+- Develop predictive models for identifying high-risk customers.
+  
 ## **Step-by-step**
 To obtain the best prediction in high-risk cases, what we must do? :
 1. Data Preprocessing
