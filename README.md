@@ -71,5 +71,5 @@ Recommendation : REJECT
   - `education` not recommended for secondary
   - `default` not recommended for yes
     
-*for detail you can enter into `code_analysis`
+*for detail you can enter into `code_analysis`*
 
