@@ -14,6 +14,19 @@ for obtain best predict in the high risk cases, what we must do? :
 5. Design Score Card
 6. Logistic Regression Modeling
 7. Model Evaluation
-8. Scaling
+8. Model Estimate
+9. Scaling
 10. Predict Credit Score
+
+## Result Model Prediction
+I'm using model logistic regression to decide using the data. Why using the model? because the model can be simple to interpret.
+
+- From model selection, we have a best logistic regression model that includes 4 predictors (`job`, `marital`, `education`, `default`).
+- The sensitivity/recall score from the best model is about 0.63 on the train set and 0.65 test set, which means:
+  - The model can predict about 65% of bad applicants correctly.
+  - We still have a chance of about 25% to misclassify bads as goods.
+- The best model may be questioned by other departments since the best model only contains 4 predictors.
+  - Scorecards with too few characteristics are generally unable to withstand the test of time, as they are susceptible to minor changes in the applicant profile.
+  - In business terms, scorecards should be developed to mimic the thought process of a seasoned, effective adjudicator or risk analyst. A good adjudicator will never look at just two or three things from an application form or account history to make a decision.
+ 
 
