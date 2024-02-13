@@ -37,6 +37,6 @@ How can we choose thresholds?
 
 Look at this image!
 
-<img align="center" src="image/setting_cutoff.png" width="700" height="500" />
+<img align="center" src="image/setting_cutoff.png" width="650" height="500" />
 
 Now we can obtain a threshold for rejecting under 200 and then approving more than 200. How can we choose thresholds?
